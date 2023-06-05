@@ -1,0 +1,74 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 1500px;
+    height: 900px;
+    
+    background-color: black;
+}
+.im{
+    width: 100%;
+    height: 900px;
+    opacity: 0.4;
+    display: flex;
+    margin-top: -93px;
+
+}
+ 
+.content{
+    position: absolute;
+    margin-top: -600px;
+    margin-left: 500px;
+    background-color: black;
+    width: 400px;
+    height: 300px;
+    color: white;
+}
+.form{
+    width: 100px;
+    top:70px;
+    left:20px;
+    position: absolute;
+    display: block;
+    
+}
+h1{
+    left: 20px;
+    position: absolute;
+}
+.log{
+    width: 300%;
+    height: 40px;
+    background-color: white;
+    opacity: 0.5;
+    
+}
+.but{
+    width: 310%;
+    height: 40px;
+    background-color: red;
+}
+p{
+    left: 30px;
+    position: absolute;
+    word-wrap: wrap;
+}
+.net{
+    position: absolute;
+    top:100px;
+    color:red;
+    font-size: large;
+}
+
+
+/* @media screen (max-width:570px) {
+    .net{
+        display: b
+    }
+    
+} */
